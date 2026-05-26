@@ -1,2 +1,12 @@
+# 拷贝源项目
 copy submodules/OreUIForEveryone/assets %project.cache%/assets true .*ae2.*|.*advanced_ae.*
 copy submodules/OreUIForEveryone/contributor.txt %project.cache%/OreUIForEveryone-Contributors.csv
+# 裁剪/重整需要删除的资源
+## 定义
+var p.ui.mc "%project.cache%/assets/minecraft/textures/gui/"
+## 移除分割线
+delete "^p.ui.mc^/footer_separator.png"
+delete "^p.ui.mc^/header_separator.png"
+## 使用旧的hud (对于1.20.1)
+copy "^p.ui.mc^/widgets_old.png" "^p.ui.mc^/widgets.png" true
+delete "^p.ui.mc^/widgets_old.png"
