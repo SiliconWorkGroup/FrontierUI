@@ -1,6 +1,6 @@
 # 拷贝源项目
 copy submodules/OreUIForEveryone/assets %project.cache%/assets true .*ae2.*|.*advanced_ae.*
-copy submodules/OreUIForEveryone/contributor.txt %project.cache%/OreUIForEveryone-Contributors.csv
+copy submodules/OreUIForEveryone/contributor.csv %project.cache%/OreUIForEveryone-Contributors.csv
 # 裁剪/重整需要删除的资源
 ## 定义
 var p.ui.mc "%project.cache%/assets/minecraft/textures/gui/"
