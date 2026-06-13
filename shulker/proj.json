@@ -1,6 +1,6 @@
 {
   "ProjectName": "FrontierUI",
-  "Version": "R0.10",
+  "Version": "R0.12",
   "RootPath": "./src/",
   "OutPath": "./build/",
   "DefaultEnvVars": {
