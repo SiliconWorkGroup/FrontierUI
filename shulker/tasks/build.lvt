@@ -1,7 +1,7 @@
 echo "=====&3Build - %project.name%&r====="
 run merge.lvt
 import shulker.magick
-makeCopy .*\.psd$
+makeCopy .*\.(psd|aseprite|ase)$
 pbrEx
 psdCvt
 copy LICENSE %project.cache%/LICENSE
